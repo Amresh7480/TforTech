@@ -1,0 +1,40 @@
+.header_top {
+    padding: 16px 0px 11px 139px;
+    font-family: Poppins, Regula;
+
+}
+
+.header_top ul li {
+    padding: 0px 16px;
+    font-size: 14px;
+}
+
+.header_midel_part input {
+    border: none;
+    border-bottom: solid gray 3px !important;
+    outline: none;
+}
+
+.header_midel_part span {
+    cursor: pointer;
+}
+
+.header_bottom_part ul li {
+    padding: 5px 25px 5px 0px;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.header_bottom_part ul li span {
+    font-size: 12px;
+    color: gray;
+}
+.header_midel_part .navbar-toggler{
+  border: none !important;
+  outline: none !important;
+}
+.header_midel_part .navbar-toggler:focus{
+    box-shadow: none !important;
+}
+
+@media only screen and (min-width:200px) and (max-width:576px) {}
